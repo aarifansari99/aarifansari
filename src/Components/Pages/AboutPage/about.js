@@ -1,26 +1,24 @@
-import React, { useEffect } from 'react'
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+import React, { useEffect } from 'react';
 
 const AboutPage = () => {
-
+  
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        } else {
-          entry.target.classList.remove("show");
-        }
-      });
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline();
+    tl.to(".hidden", { opacity: 1, stagger: 1 });
+    tl.to(".hidden:not(:last-child)", { opacity: 0.15, stagger: 1 }, 1);
+
+    ScrollTrigger.create({
+      animation: tl,
+      trigger: "#list",
+      start: "top center",
+      end: "+=500",
+      scrub: 0.1,
     });
-    // const hiddenElementLeft = document.querySelectorAll(".hidden-skill-left");
-    const hiddenElementRight = document.querySelectorAll(".hidden");
-    // hiddenElementLeft.forEach((el) => observer.observe(el));
-    hiddenElementRight.forEach((el) => observer.observe(el));
-    return () => {
-      // hiddenElementLeft.forEach((el) => observer.unobserve(el));
-      hiddenElementRight.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
+  }, []); // Empty dependency array means this effect will only run once after the initial render
 
   return (
     <>
@@ -31,7 +29,7 @@ const AboutPage = () => {
                 <p className='display-1'>Am</p>
                 <p className='display-1'>I</p>
             </div>
-            <div className="about-me">
+            <div className="about-me" id="list">
                 <p className='hidden'>Hey!</p>
                 <span className='hidden'>.</span>
                 <p className='hidden'>I am Aarif</p>
@@ -51,4 +49,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default AboutPage;
