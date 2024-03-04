@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/aarifansari/static/css/main.aca67525.css",
-    "main.js": "/aarifansari/static/js/main.a2072683.js",
+    "main.css": "/aarifansari/static/css/main.1e89a5db.css",
+    "main.js": "/aarifansari/static/js/main.eee77ee3.js",
     "static/js/787.1937f22b.chunk.js": "/aarifansari/static/js/787.1937f22b.chunk.js",
     "static/media/bhaijan.png": "/aarifansari/static/media/bhaijan.b22068304eeb98383e0b.png",
     "static/media/mhdali.png": "/aarifansari/static/media/mhdali.ce92bb5bac7515e02d33.png",
     "static/media/silverfork.png": "/aarifansari/static/media/silverfork.531a812bc576a9a363de.png",
     "static/media/glory.png": "/aarifansari/static/media/glory.5180c08dd46be835cbd7.png",
     "static/media/digiverse.png": "/aarifansari/static/media/digiverse.512ae9debfb154ece281.png",
-    "static/media/HomeBanner.jpg": "/aarifansari/static/media/HomeBanner.f5d545dd173877929ada.jpg",
-    "static/media/aarif-ansari-high-resolution-logo-transparent.png": "/aarifansari/static/media/aarif-ansari-high-resolution-logo-transparent.f5962915584d3c68ad85.png",
     "static/media/Domaine Sans Fine Regular Regular.ttf": "/aarifansari/static/media/Domaine Sans Fine Regular Regular.89f846a4d3e64fb39aa3.ttf",
     "static/media/Bright DEMO.ttf": "/aarifansari/static/media/Bright DEMO.620812dc821a3256931c.ttf",
     "static/media/express-svgrepo-com.svg": "/aarifansari/static/media/express-svgrepo-com.9b3533e36f6caaee799ec0a744f98e50.svg",
@@ -18,7 +16,7 @@
     "static/media/NodeJs.svg": "/aarifansari/static/media/NodeJs.5fbb67e46b4aadd7df55c3f199a11156.svg",
     "static/media/logo.svg": "/aarifansari/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/bootstrap-fill-svgrepo-com.svg": "/aarifansari/static/media/bootstrap-fill-svgrepo-com.e03a41f4d1247125966caf3c3748f5ff.svg",
-    "static/media/Github.svg": "/aarifansari/static/media/Github.f0f6ef98fd5d00869367ac5fc92258da.svg",
+    "static/media/Github.svg": "/aarifansari/static/media/Github.926cf5969b1e4beabcee0c6df25c9a87.svg",
     "static/media/NextJs.svg": "/aarifansari/static/media/NextJs.5caf5c9b23e24c38d902e1ec4f5000b8.svg",
     "static/media/Ts.svg": "/aarifansari/static/media/Ts.6ff7983f2a683058072d426e85972c83.svg",
     "static/media/Html.svg": "/aarifansari/static/media/Html.dd63f6562ca41e3ad1ec13691b4a0d6f.svg",
@@ -27,14 +25,14 @@
     "static/media/call.svg": "/aarifansari/static/media/call.bebba5acba94ce6546fbc6de58b36233.svg",
     "static/media/mail.svg": "/aarifansari/static/media/mail.d92ca3842f69c1ed4882b0246514b6be.svg",
     "static/media/tailwind-svgrepo-com.svg": "/aarifansari/static/media/tailwind-svgrepo-com.5a327c1144f3018bfa9a49afe5ead097.svg",
-    "static/media/Linkdin.svg": "/aarifansari/static/media/Linkdin.5329447f8287f3706eb2a484a70aaf08.svg",
-    "static/media/Twiter.svg": "/aarifansari/static/media/Twiter.60a63571cb01a2c6df65a2f776c5974d.svg",
-    "main.aca67525.css.map": "/aarifansari/static/css/main.aca67525.css.map",
-    "main.a2072683.js.map": "/aarifansari/static/js/main.a2072683.js.map",
+    "static/media/Linkdin.svg": "/aarifansari/static/media/Linkdin.12eabdc5e7040f00caad17136a63621e.svg",
+    "static/media/Twiter.svg": "/aarifansari/static/media/Twiter.1c41ff555ab6583556a51ef6e45a9691.svg",
+    "main.1e89a5db.css.map": "/aarifansari/static/css/main.1e89a5db.css.map",
+    "main.eee77ee3.js.map": "/aarifansari/static/js/main.eee77ee3.js.map",
     "787.1937f22b.chunk.js.map": "/aarifansari/static/js/787.1937f22b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aca67525.css",
-    "static/js/main.a2072683.js"
+    "static/css/main.1e89a5db.css",
+    "static/js/main.eee77ee3.js"
   ]
 }
