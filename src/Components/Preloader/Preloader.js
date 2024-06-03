@@ -7,16 +7,16 @@ const Preloader = () => {
   const [greetingIndex, setGreetingIndex] = useState(0);
   const greetings = [
     "Hello",
-    "Hola",
-    "Bonjour",
-    "Hallo",
-    "Ciao",
-    "こんにちは",
-    "你好",
-    "Привет",
-    "مرحبا",
-    "안녕하세요",
-    'السلام عليكم',
+    // "Hola",
+    // "Bonjour",
+    // "Hallo",
+    // "Ciao",
+    // "こんにちは",
+    // "你好",
+    // "Привет",
+    // "مرحبا",
+    // "안녕하세요",
+    // 'السلام عليكم',
   ];
 
   useEffect(() => {

@@ -3,20 +3,20 @@ import Header from "../../Header/header";
 import LinkDin from "../../Assets/Images/Socials/Linkdin.svg";
 import Git from "../../Assets/Images/Socials/Github.svg";
 import Twitter from "../../Assets/Images/Socials/Twiter.svg";
-import Confetti from "react-confetti";
+// import Confetti from "react-confetti";
 
 const HomePage = () => {
-  const [showConfetti, setShowConfetti] = useState(false);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowConfetti(true);
-    }, 3000);
-    return () => clearTimeout(timeout);
-  }, []);
+  // const [showConfetti, setShowConfetti] = useState(false);
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     setShowConfetti(true);
+  //   }, 3000);
+  //   return () => clearTimeout(timeout);
+  // }, []);
 
   return (
     <>
-      {showConfetti && <Confetti recycle={false} style={{width: '100%'}} />}
+      {/* {showConfetti && <Confetti recycle={false} style={{width: '100%'}} />} */}
       <div className="header-container">
         <Header />
       </div>
