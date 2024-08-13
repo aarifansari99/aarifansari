@@ -16,8 +16,6 @@ const SkillPage = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show-skill");
-        } else {
-          entry.target.classList.remove("show-skill");
         }
       });
     });
